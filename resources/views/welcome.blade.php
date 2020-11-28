@@ -8,6 +8,7 @@
 <body>
 <h1>Hello Livewire</h1>
 <livewire:counter>
-    @livewireScripts
+    <livewire:chat>
+        @livewireScripts
 </body>
 </html>

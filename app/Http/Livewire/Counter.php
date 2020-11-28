@@ -6,8 +6,14 @@ use Livewire\Component;
 
 class Counter extends Component
 {
-    public $count = 10;
-    public $message = 'hello';
+    public $count;
+    public $message;
+
+    public function mount()
+    {
+        $this->count = 10;
+        $this->message = 'Hello World!';
+    }
 
     public function inc(){
         $this->count++;
