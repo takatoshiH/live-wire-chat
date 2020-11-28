@@ -1,5 +1,4 @@
 <div>
-    <h3>チャットを作りたい</h3>
     <div wire:poll.500ms="getChats">
         <ul>
             @foreach($chats as $chat)
@@ -7,8 +6,7 @@
             @endforeach
         </ul>
     </div>
-
     <h4>新規投稿</h4>
-    <input type="text" wire:model.lazy="message">
-    <button wire:click="create('hay')">送信</button>
+    <input type="text" wire:model="message">
+    <button wire:click="create('{{$message}}')">送信</button>
 </div>

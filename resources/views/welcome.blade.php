@@ -6,8 +6,7 @@
     @livewireStyles
 </head>
 <body>
-<h1>Hello Livewire</h1>
-<livewire:counter>
+    <h1>掲示板MODOKI</h1>
     <livewire:chat>
         @livewireScripts
 </body>
