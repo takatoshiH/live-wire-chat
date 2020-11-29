@@ -6,8 +6,8 @@
     @livewireStyles
 </head>
 <body>
-    <h1>掲示板MODOKI</h1>
-    <livewire:chat>
-        @livewireScripts
+<h1 style="text-align: center">掲示板MODOKI</h1>
+<livewire:chat/>
+@livewireScripts
 </body>
 </html>
