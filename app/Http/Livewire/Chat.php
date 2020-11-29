@@ -14,7 +14,7 @@ class Chat extends Component
     public function mount() {
         $this->chats = \App\Models\Chat::take(10)->latest()->get();
         $this->message = '';
-        $this->user_name = '';
+        $this->user_name = '無名太郎';
     }
 
     public function create($message, $user_name) {
